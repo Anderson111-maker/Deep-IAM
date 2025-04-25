@@ -5,3 +5,4 @@ File"Feature selection" contains experiments with the random forest model and in
 File"Generative deep learning Model"contains programs for training three generative models: VAE, CGAN, and RCGAN. However, using the TSGM library, we found that even with random seeds, randomness occurs, so we also saved the parameters of each model.
 
 Files with the "Policy" prefix merged classes C1-C4 into a combined C1234 class, C5-C6 into C56 class, and C7-C8 into C78 class. We then reproduced our previous experiments based on this new classification scheme. Notably, when training the VAE-Top6 model, we initially utilized parameters obtained from previous training sessions as a starting point for further training. However, our experiments revealed that training the model from scratch could achieve comparable results. Consequently, we did not use pre-trained parameters for other models.
+Our zendo link is https://doi.org/10.5281/zenodo.15280652.
